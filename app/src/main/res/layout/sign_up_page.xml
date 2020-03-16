@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D069700B"
+    android:backgroundTint="#C6AC0B0B">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/background_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:backgroundTint="@color/colorPrimaryDark">
+
+
+
+
+        <TextView
+            android:id="@+id/signup_page"
+            android:layout_width="317dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="36dp"
+            android:text="SIGN UP PAGE"
+            android:textAlignment="center"
+            android:textColor="#0A0000"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/first_name"
+            android:layout_width="139dp"
+            android:layout_height="25dp"
+            android:text="First Name"
+            android:textColor="#0A0000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="94dp" />
+
+        <EditText
+            android:id="@+id/editText1_name"
+            android:layout_width="337dp"
+            android:layout_height="31dp"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="#BFDADD"
+            android:ems="10"
+            android:foregroundTint="#00ACC1"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.594"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="132dp" />
+
+        <TextView
+            android:id="@+id/last_name"
+            android:layout_width="139dp"
+            android:layout_height="25dp"
+            android:text="Last Name"
+            android:textColor="#0A0000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <EditText
+            android:id="@+id/editText2_name"
+            android:layout_width="337dp"
+            android:layout_height="31dp"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="#BFDADD"
+            android:ems="10"
+            android:foregroundTint="#00ACC1"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.594"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="210dp" />
+
+        <TextView
+            android:id="@+id/email_ID"
+            android:layout_width="139dp"
+            android:layout_height="25dp"
+            android:text="Email ID"
+            android:textColor="#0A0000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="254dp" />
+
+        <EditText
+            android:id="@+id/editText2_email_ID"
+            android:layout_width="337dp"
+            android:layout_height="31dp"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="#BFDADD"
+            android:ems="10"
+            android:foregroundTint="#00ACC1"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="288dp" />
+
+        <TextView
+            android:id="@+id/contact_Number"
+            android:layout_width="139dp"
+            android:layout_height="25dp"
+            android:text="Contact Number"
+            android:textColor="#0A0000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.473"
+            tools:layout_editor_absoluteX="44dp" />
+
+        <EditText
+            android:id="@+id/editText2_contact_Number"
+            android:layout_width="337dp"
+            android:layout_height="31dp"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="#BFDADD"
+            android:ems="10"
+            android:foregroundTint="#00ACC1"
+            android:hint="Contact Number"
+            android:inputType="phone"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="370dp" />
+
+        <TextView
+            android:id="@+id/create_Password"
+            android:layout_width="207dp"
+            android:layout_height="30dp"
+            android:text="Create Password"
+            android:textColor="#0A0000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <EditText
+            android:id="@+id/editText2_create_Password"
+            android:layout_width="337dp"
+            android:layout_height="31dp"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="#BFDADD"
+            android:ems="10"
+            android:foregroundTint="#00ACC1"
+            android:hint="Create Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.594"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="455dp" />
+
+        <TextView
+            android:id="@+id/confirm_Password"
+            android:layout_width="203dp"
+            android:layout_height="34dp"
+            android:text="Confirm password"
+            android:textColor="#0A0000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="500dp" />
+
+        <EditText
+            android:id="@+id/editText2_confirm_Password"
+            android:layout_width="337dp"
+            android:layout_height="31dp"
+            android:background="@android:color/darker_gray"
+            android:backgroundTint="#BFDADD"
+            android:ems="10"
+            android:foregroundTint="#00ACC1"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="546dp" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:text="SUBMIT"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="626dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+

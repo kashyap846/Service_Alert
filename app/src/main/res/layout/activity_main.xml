@@ -25,7 +25,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/editText1_name"
         android:layout_width="333dp"
         android:layout_height="50dp"
         android:background="@android:color/darker_gray"
@@ -56,20 +56,20 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintHorizontal_bias="0.642"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="271dp" />
+        tools:layout_editor_absoluteY="231dp" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="177dp"
-        android:layout_height="53dp"
+        android:layout_width="317dp"
+        android:layout_height="52dp"
         android:text="LOGIN"
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="351dp" />
+        tools:layout_editor_absoluteY="352dp" />
 
     <EditText
         android:id="@+id/editText7"
@@ -114,3 +114,4 @@
         tools:layout_editor_absoluteY="614dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+

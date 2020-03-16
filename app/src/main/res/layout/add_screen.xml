@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#336815">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="346dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:background="#F7F6F1"
+        android:text="Add Machine Details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview1_name_machine"
+        android:layout_width="187dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        android:text="Name of the Machine"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <EditText
+        android:id="@+id/editText1_name_machine"
+        android:layout_width="197dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/darker_gray"
+        android:backgroundTint="#BFDADD"
+        android:ems="10"
+        android:foregroundTint="#00ACC1"
+        android:hint="Name of the Machine"
+        android:inputType="text"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/textview2_DOP"
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:text="Date of Purchase"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <EditText
+        android:id="@+id/editText2_DOP"
+        android:layout_width="197dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/darker_gray"
+        android:backgroundTint="#BFDADD"
+        android:ems="10"
+        android:foregroundTint="#00ACC1"
+        android:hint="Date of Purchase"
+        android:inputType="date"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/textview3_IOM"
+        android:layout_width="182dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:text="Image of the Machine"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="195dp"
+        android:layout_height="84dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:id="@+id/textview3_IOB"
+        android:layout_width="182dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:text="Image of Bill"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <ImageView
+        android:id="@+id/imageView2_IOB"
+        android:layout_width="197dp"
+        android:layout_height="76dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <TextView
+        android:id="@+id/textview4_IOW"
+        android:layout_width="182dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:text="Image of Warranty"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <ImageView
+        android:id="@+id/imageView3_IOW"
+        android:layout_width="198dp"
+        android:layout_height="78dp"
+        app:srcCompat="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+
+    <TextView
+        android:id="@+id/textview5_DFNS"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:text="Date for Next Service"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <EditText
+        android:id="@+id/editText3_DFNS"
+        android:layout_width="197dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/darker_gray"
+        android:backgroundTint="#BFDADD"
+        android:ems="10"
+        android:foregroundTint="#00ACC1"
+        android:hint="Date for Next Service"
+        android:inputType="date"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="458dp" />
+
+
+    <TextView
+        android:id="@+id/textview6_STI"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:text="Service Time Interval"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="501dp" />
+
+    <EditText
+        android:id="@+id/editText4_STI"
+        android:layout_width="197dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/darker_gray"
+        android:backgroundTint="#BFDADD"
+        android:ems="10"
+        android:foregroundTint="#00ACC1"
+        android:hint="Frequency"
+        android:inputType="date"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <TextView
+        android:id="@+id/textview7_IIAM"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:text="Important Info about Machine"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="546dp" />
+
+    <EditText
+        android:id="@+id/editText5_MIAM"
+        android:layout_width="198dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/darker_gray"
+        android:backgroundTint="#BFDADD"
+        android:ems="10"
+        android:foregroundTint="#00ACC1"
+        android:hint="Enter more Info about your Machine"
+        android:inputType="date"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="SAVE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
